@@ -1,0 +1,17 @@
+.portfolio {
+	width: 100vw;
+	margin: 0 auto;
+	margin-bottom: 150px;
+}
+
+.portfolio__list {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+
+.portfolio__link {
+	img {
+		display: block;
+	}
+}

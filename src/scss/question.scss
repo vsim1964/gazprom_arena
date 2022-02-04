@@ -1,0 +1,58 @@
+.question {
+	margin-bottom: 150px;
+}
+
+.question__title {
+	padding-bottom: 50px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 53px;
+	text-transform: uppercase;
+	color: $dark;
+	text-align: center;
+}
+
+.question__accordion {
+	display: block;
+	padding-left: 25px;
+	position: relative;
+	background-color: transparent;
+	border: 0;
+	outline: 0;
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: $accent;
+	cursor: pointer;
+
+	&::before {
+		content: "";
+		display: block;
+		width: 15px;
+		height: 15px;
+		background-image: url('@img/polygon.svg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: absolute;
+		top: 12px;
+		left: 0;
+	}
+}
+
+.question__panel {
+	display: block;
+}
+
+.question__text {
+	padding-top: 30px;
+	padding-bottom: 40px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	color: $gray;
+}
