@@ -1,0 +1,42 @@
+.numbers {
+	margin-top: -150px;
+	margin-bottom: 100px;
+}
+
+.numbers__list {
+	height: 300px;
+	background: #F7F7F7;
+	padding: 60px 130px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.numbers__item {
+	text-align: center;
+}
+
+.numbers__text-top {
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 107px;
+	text-align: center;
+	text-transform: uppercase;
+	color: $accent;
+}
+
+.numbers__text-center {
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 53px;
+	text-align: center;
+	text-transform: uppercase;
+	color: $dark;
+}
+
+.numbers__text-bottom {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+	color: $gray;
+}

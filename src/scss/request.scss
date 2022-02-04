@@ -1,0 +1,73 @@
+.request {
+	height: 181px;
+	background-color: $accent;
+	margin-bottom: 195px;
+}
+
+.request__block {
+	padding-top: 30px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.request__text {
+	grid-column: 1/2;
+	align-items: center;
+	text-align: center;
+}
+
+.request__text-big {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 71px;
+	letter-spacing: 0.02em;
+	color: $white;
+	text-transform: uppercase;
+}
+
+.request__text-small {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 0.02em;
+	color: $white;
+	text-transform: uppercase;
+}
+
+.request__btn {
+	width: 175px;
+	height: 49px;
+	background: $white;
+	border: 0;
+	outline: 0;
+	grid-column: 2/3;
+	align-self: center;
+	justify-self: self-end;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.request__btn-text {
+	position: relative;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 49px;
+	letter-spacing: 0.05em;
+	color: $dark;
+	text-transform: uppercase;
+	text-align: left;
+	padding-left: 63px;
+
+	&::before {
+		content: "";
+		display: block;
+		width: 18px;
+		height: 49px;
+		background-image: url(@img/poste.svg);
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 17px;
+		left: 33px;
+		background-size: poster;
+	}
+}

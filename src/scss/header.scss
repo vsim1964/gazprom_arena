@@ -1,0 +1,62 @@
+.header {
+	background: $gray url(@img/first-screen.jpg) no-repeat;
+	height: 740px;
+
+	.title-h2 {}
+
+	.title-h4 {
+		text-align: center;
+	}
+}
+
+.header__title {
+	padding: 192px 0 35px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 95px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.header__subtitle {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+
+.nav {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav__link {
+	padding-top: 20px;
+}
+
+.nav__btn {
+	margin-top: 30px;
+	width: 50px;
+	height: 50px;
+	background-color: #F7654A;
+	border: 0;
+	outline: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.line {
+	width: 25px;
+	margin-bottom: 4px;
+	border-bottom: 3px solid $white;
+}
