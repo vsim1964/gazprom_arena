@@ -1,5 +1,7 @@
+/* ================  QUESTION ================= */
+
 .question {
-	margin-bottom: 150px;
+	margin-bottom: 143px;
 }
 
 .question__title {
@@ -15,7 +17,8 @@
 
 .question__accordion {
 	display: block;
-	padding-left: 25px;
+	margin-bottom: 34px;
+	padding-left: 30px;
 	position: relative;
 	background-color: transparent;
 	border: 0;
@@ -26,6 +29,7 @@
 	font-size: 24px;
 	line-height: 36px;
 	color: $accent;
+	text-transform: uppercase;
 	cursor: pointer;
 
 	&::before {
@@ -47,8 +51,7 @@
 }
 
 .question__text {
-	padding-top: 30px;
-	padding-bottom: 40px;
+	padding-bottom: 44px;
 	font-family: Open Sans;
 	font-style: normal;
 	font-weight: normal;

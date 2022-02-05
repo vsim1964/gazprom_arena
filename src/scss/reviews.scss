@@ -1,0 +1,58 @@
+/* ================  REVIEWS ================= */
+
+.reviews {
+	margin-bottom: 145px;
+}
+
+.reviews-title {
+	padding-bottom: 60px;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 53px;
+	text-transform: uppercase;
+	color: $dark;
+	text-align: center;
+}
+
+.reviews__box {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 30px;
+}
+
+
+.reviews__quote {
+	width: 350px;
+	height: 259px;
+	margin-bottom: 32px;
+	box-sizing: border-box;
+	padding: 30px;
+	background: $box;
+
+	& p {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 21px;
+		color: &gray;
+	}
+}
+
+.reviews__img {
+	display: block;
+	margin-bottom: 25px;
+}
+
+.reviews__cite {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 31px;
+	letter-spacing: 0.02em;
+	color: $dark;
+}
+
+.reviews__cite-accent {
+	color: $accent;
+}

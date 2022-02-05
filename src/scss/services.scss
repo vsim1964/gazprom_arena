@@ -1,9 +1,10 @@
+/* ================  SERVICES ================= */
 .services {
 	margin-bottom: 150px;
 }
 
 .services__title {
-	padding-bottom: 66px;
+	padding-bottom: 57px;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 36px;
@@ -27,12 +28,12 @@
 .services__item {
 	width: 350px;
 	height: 250px;
-	background: #F7F7F7;
+	background: $box;
 }
 
 .services__link {
 	display: block;
-	padding: 59px 29px 0;
+	padding: 57px 59px 0;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 21px;
@@ -44,7 +45,7 @@
 }
 
 .services__text {
-	padding-top: 30px;
+	padding-top: 18px;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 21px;

@@ -1,8 +1,11 @@
+/* ================  PROJECT ================= */
+
 .project {
-	margin-bottom: 150px;
+	margin-bottom: 123px;
 }
 
 .project__title {
+	padding-bottom: 50px;
 	font-weight: 500;
 	font-size: 36px;
 	line-height: 53px;
@@ -13,7 +16,7 @@
 
 .project__list {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	column-gap: 30px;
 }
 
@@ -25,7 +28,7 @@
 
 .project__img {
 	width: 100%;
-	margin-bottom: 50px;
+	margin-bottom: 44px;
 }
 
 .item-1 {
@@ -51,6 +54,8 @@
 }
 
 .project__subtitle {
+	padding-top: 15px;
+	padding-bottom: 13px;
 	font-weight: 500;
 	font-size: 24px;
 	line-height: 36px;
@@ -63,5 +68,5 @@
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 22px;
-	color: #999999;
+	color: $gray;
 }

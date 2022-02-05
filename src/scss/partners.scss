@@ -1,19 +1,21 @@
+/* ================  PARTNERS ================= */
+
 .partners {
 	width: 100vw;
 	height: 364px;
-	background-color: #404149;
+	background-color: $footer;
 	margin-bottom: 150px;
 }
 
 .partners__title {
 	padding-top: 100px;
-	padding-bottom: 60px;
+	padding-bottom: 49px;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 36px;
 	line-height: 53px;
 	text-transform: uppercase;
-	color: #FFFFFF;
+	color: $white;
 	text-align: center;
 }
 

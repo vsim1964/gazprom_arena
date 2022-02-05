@@ -1,13 +1,23 @@
+/* ================  REQUEST ================= */
+
 .request {
 	height: 181px;
 	background-color: $accent;
-	margin-bottom: 195px;
+	margin-bottom: 150px;
+}
+
+.request_copy {
+	height: 181px;
+	background-color: $accent;
+
+	margin-bottom: 100px;
 }
 
 .request__block {
 	padding-top: 30px;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(2, auto);
+	justify-items: baseline;
 }
 
 .request__text {
@@ -28,15 +38,17 @@
 .request__text-small {
 	font-weight: 700;
 	font-size: 24px;
-	line-height: 36px;
+	line-height: 48px;
 	letter-spacing: 0.02em;
 	color: $white;
 	text-transform: uppercase;
+	text-align-last: left;
 }
 
 .request__btn {
 	width: 175px;
 	height: 49px;
+	margin-top: 15px;
 	background: $white;
 	border: 0;
 	outline: 0;
@@ -49,10 +61,11 @@
 
 .request__btn-text {
 	position: relative;
-	font-weight: 500;
-	font-size: 14px;
+	font-weight: 600;
+	font-family: 'Oswald';
+	font-size: 13px;
 	line-height: 49px;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.055em;
 	color: $dark;
 	text-transform: uppercase;
 	text-align: left;
@@ -67,7 +80,7 @@
 		background-repeat: no-repeat;
 		position: absolute;
 		top: 17px;
-		left: 33px;
+		left: 30px;
 		background-size: poster;
 	}
 }

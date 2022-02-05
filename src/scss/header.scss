@@ -1,3 +1,5 @@
+/* ================  HEADER ================= */
+
 .header {
 	background: $gray url(@img/first-screen.jpg) no-repeat;
 	height: 740px;
@@ -10,7 +12,7 @@
 }
 
 .header__title {
-	padding: 192px 0 35px;
+	padding: 112px 0 16px;
 	text-align: center;
 	font-weight: 500;
 	font-size: 64px;
@@ -18,7 +20,7 @@
 	text-align: center;
 	letter-spacing: 0.02em;
 	text-transform: uppercase;
-	color: #FFFFFF;
+	color: $white;
 }
 
 .header__subtitle {
@@ -27,7 +29,7 @@
 	line-height: 27px;
 	text-align: center;
 	text-transform: uppercase;
-	color: #FFFFFF;
+	color: $white;
 }
 
 
@@ -45,7 +47,7 @@
 	margin-top: 30px;
 	width: 50px;
 	height: 50px;
-	background-color: #F7654A;
+	background-color: $accent;
 	border: 0;
 	outline: 0;
 	display: flex;
